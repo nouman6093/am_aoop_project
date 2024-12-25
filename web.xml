@@ -1,0 +1,87 @@
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+         version="2.5">
+  <display-name>Evently Web Application</display-name>
+
+  <!-- ContactUsServlet Configuration -->
+  <servlet>
+    <servlet-name>ContactUsServlet</servlet-name>
+    <servlet-class>com.code.ContactUsServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ContactUsServlet</servlet-name>
+    <url-pattern>/ContactUsServlet</url-pattern>
+  </servlet-mapping>
+
+  <!-- ValidateAd Servlet Configuration -->
+  <servlet>
+    <servlet-name>ValidateAd</servlet-name>
+    <servlet-class>com.code.ValidateAd</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ValidateAd</servlet-name>
+    <url-pattern>/ValidateAd</url-pattern>
+  </servlet-mapping>
+
+  <!-- ViewEvent1 Servlet Configuration -->
+  <servlet>
+    <servlet-name>ViewEvent1</servlet-name>
+    <servlet-class>com.code.ViewEvent1</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ViewEvent1</servlet-name>
+    <url-pattern>/ViewEvent1</url-pattern>
+  </servlet-mapping>
+
+  <!-- AddEvent Servlet Configuration -->
+  <servlet>
+    <servlet-name>AddEvent</servlet-name>
+    <servlet-class>com.code.AddEvent</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddEvent</servlet-name>
+    <url-pattern>/AddEvent</url-pattern>
+  </servlet-mapping>
+
+  <!-- TraH Servlet Configuration -->
+  <servlet>
+    <servlet-name>TraH</servlet-name>
+    <servlet-class>com.code.TraH</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>TraH</servlet-name>
+    <url-pattern>/TraH</url-pattern>
+  </servlet-mapping>
+
+  <!-- StoreP Servlet Configuration -->
+  <servlet>
+    <servlet-name>StoreP</servlet-name>
+    <servlet-class>com.code.StoreP</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>StoreP</servlet-name>
+    <url-pattern>/StoreP</url-pattern>
+  </servlet-mapping>
+
+  <!-- VaPa Servlet Configuration -->
+  <servlet>
+    <servlet-name>VaPa</servlet-name>
+    <servlet-class>com.code.VaPa</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>VaPa</servlet-name>
+    <url-pattern>/VaPa</url-pattern>
+  </servlet-mapping>
+
+  <!-- Register Servlet Configuration -->
+  <servlet>
+    <servlet-name>Register</servlet-name>
+    <servlet-class>com.code.Register</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Register</servlet-name>
+    <url-pattern>/Register</url-pattern>
+  </servlet-mapping>
+
+</web-app>
